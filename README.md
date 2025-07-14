@@ -1,4 +1,4 @@
-﻿# 🎨 Art Collection Manager (Console App)
+﻿# 🎨 Art Collection Management System (Console App)
 
 A simple, user-friendly console application to help you manage your personal art collection.  
 Built with C# and .NET 8.0, the program allows you to add, view, sort, search, and save artworks with ease.
@@ -24,7 +24,7 @@ Please download the latest version of the package from the project's release pag
 
 Included in the download:
 
-- `ArtCollectionManagement.exe` — the executable program
+- `Art Collection Management System.exe` — the executable program
 - `art_collection_basic.txt` — the default data file
 
 > 💡 Just place both files in the same folder and double-click the `.exe` to start!
