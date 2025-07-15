@@ -236,12 +236,17 @@ public class Program
                 case "7":
                     SaveData(filename);
                     Console.WriteLine("Have a wonderful day. Goodbye!");
-                    working = false;
+                    Console.ReadKey(true);  // 等待用户按下任意键，不显示按键
+                    Environment.Exit(0);    // 结束程序
                     break;
                 case "8":
                     Console.WriteLine("\nNo changes were saved. Exiting the Art Collection Management System.");
                     Console.WriteLine("Hope to see you again soon!");
-                    working = false;
+                    Console.ReadKey(true);  // 等待用户按下任意键，不显示按键
+                    Environment.Exit(0);    // 结束程序
+                    break;
+                default:
+                    Console.WriteLine("\nInvalid choice. Please try again.");
                     break;
             }
         }
